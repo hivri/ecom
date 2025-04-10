@@ -1,1 +1,17 @@
-{ "name": "your-name/project-name", "description": "PHP project", "require": {} }
+{
+  "name": "hivri/ecom",
+  "description": "A simple PHP E-commerce project hosted on Render",
+  "type": "project",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:10000"
+  }
+}
+
