@@ -19,3 +19,4 @@ EXPOSE 10000
 # Run PHP's built-in server
 CMD ["php", "-S", "0.0.0.0:10000"]
 
+RUN apt-get update && apt-get install -y php-mysqli
