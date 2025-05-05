@@ -1,7 +1,8 @@
 <?php
 
-$db = mysqli_connect("localhost","root","","Estore");
+/* $db = mysqli_connect("localhost","root","","Estore"); */
 
+$db = mysqli_connect("sql12.freesqldatabase.com", "sql12777116", "h6zXiiRbLB", "sql12777116", 3306);
 /// IP address code starts /////
 function getRealUserIp(){
     switch(true){
