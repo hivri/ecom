@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-project
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    rootDir: .
+
