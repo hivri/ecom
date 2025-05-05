@@ -1,7 +1,3 @@
-/* <?php */
-/* $con = mysqli_connect("localhost","root","","Estore"); */
-/* ?> */
-
 
 <?php
 $con = mysqli_connect(
