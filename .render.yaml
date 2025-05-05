@@ -1,9 +1,9 @@
 services:
   - type: web
     name: php-project
-    env: php
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: ""
+    buildCommand: "docker build -t php-app"
+    startCommand: "docker run -p 80:80 php-app"
     rootDir: .
 
