@@ -1,7 +1,7 @@
 <?php
 
 /* $db = mysqli_connect("localhost","root","","Estore"); */
-
+//changes
 $db = mysqli_connect("sql12.freesqldatabase.com", "sql12777116", "h6zXiiRbLB", "sql12777116", 3306);
 /// IP address code starts /////
 function getRealUserIp(){
@@ -498,6 +498,12 @@ $sWhere = (count($aWhere)>0?' WHERE '.implode(' or ',$aWhere):'');
 $query = "select * from products ".$sWhere;
 
 $result = mysqli_query($db,$query);
+//changes
+
+echo "Running query: $query<br>";
+if (!$result) {
+    die("Query failed: " . mysqli_error($db));
+}
 
 $total_records = mysqli_num_rows($result);
 
