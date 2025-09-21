@@ -2,7 +2,13 @@
 
 /* $db = mysqli_connect("localhost","root","","Estore"); */
 //changes
-$db = mysqli_connect("sql12.freesqldatabase.com", "sql12777116", "h6zXiiRbLB", "sql12777116", 3306);
+$db = mysqli_connect(
+    "mysql.railway.internal", // host
+    "root",               // username
+    "QJXnpAZMLHKhtLLgUfVIBThiDNQzGQkn",                // password
+    "railway",               // database name
+    3306                         // port
+);
 /// IP address code starts /////
 function getRealUserIp(){
     switch(true){

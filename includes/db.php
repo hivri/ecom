@@ -1,10 +1,10 @@
 
 <?php
 $con = mysqli_connect(
-    "sql12.freesqldatabase.com", // host
-    "sql12777116",               // username
-    "h6zXiiRbLB",                // password
-    "sql12777116",               // database name
+    "mysql.railway.internal", // host
+    "root",               // username
+    "QJXnpAZMLHKhtLLgUfVIBThiDNQzGQkn",                // password
+    "railway",               // database name
     3306                         // port
 );
 
